@@ -1,0 +1,283 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.logo {
+  background-image: url(Img/chas-academy-logo.png);
+  width: 75px;
+  height: 75px;
+  background-size: cover;
+}
+
+.hero {
+  height: 815px;
+  background-image: url(Img/hero.jpg);
+  background-size: cover;
+  background-position: center top;
+}
+
+.cta {
+  border-radius: 30px;
+  background: rgb(78, 78, 237);
+  color: white;
+  width: 100px;
+  height: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.navbar {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+.links {
+  display: flex;
+  list-style-type: none;
+}
+.links li {
+  margin: 10px;
+}
+h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 74px;
+  text-align: center;
+}
+h2 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 20px;
+  text-align: center;
+}
+.infoPage {
+  background-color: #f8f9f9;
+  height: 715px;
+  background-size: cover;
+  background-position: center top;
+}
+.infoContent {
+  display: flex;
+}
+.infoImg {
+  height: auto;
+  width: 550px;
+  padding: 70px 100px 200px 150px;
+}
+.infoText {
+  width: 450px;
+  height: 515px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px 0px;
+}
+h4 {
+  color: black;
+  font-size: 20px;
+  margin: 10px 0px 10px 0px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+h3 {
+  color: black;
+  font-size: 50px;
+  margin: 10px 0px 20px 0px;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.cta2 {
+  border-radius: 30px;
+  background: rgb(44, 44, 45);
+  color: white;
+  width: 180px;
+  height: 50px;
+  margin: 20px 20px 20px 0px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.cta3 {
+  border-radius: 30px;
+  background: transparent;
+  color: black;
+  width: 180px;
+  height: 50px;
+  margin: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.bluePage {
+  background-color: rgb(78, 78, 237);
+  height: 340px;
+}
+
+.testimonialsPage {
+  background-color: rgb(226, 226, 226);
+  height: 815px;
+  background-size: cover;
+  background-position: center top;
+}
+
+h5 {
+  color: black;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 34px;
+  text-align: center;
+  margin: 0px;
+}
+
+.portraitContainer {
+  display: flex;
+  align-items: top;
+  justify-content: center;
+}
+
+.student {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin: 50px;
+}
+
+.ansökPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgrgb(243, 242, 242);
+  height: 715px;
+  background-size: cover;
+  background-position: center top;
+}
+
+.ansökInfo {
+  display: flex;
+  justify-content: center;
+}
+
+.ansökText {
+  width: 450px;
+  height: 515px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.cta4 {
+  border-radius: 30px;
+  background: rgb(78, 78, 237);
+  color: white;
+  width: 150px;
+  height: 60px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+footer {
+  background-color: rgb(227, 227, 236);
+  height: 440px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: black;
+  font-size: 16px;
+}
+
+.footerImg {
+  background-image: url(Img/footer_720.png);
+  background-size: contain;
+  width: 500px;
+  height: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerText {
+  text-align: left;
+  padding: 0px, 0px, 10px 0px;
+}
+
+.infoFooter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.infoFooterRight {
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+}
+
+.infoFooterLeft {
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+}
+
+.infoFooterLeft p {
+  margin-bottom: 5px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.light {
+  margin-bottom: 5px;
+  margin-top: 0px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.infoFooterImg {
+  background-image: url(Img/footer_transparent.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  display: flex;
+  width: 300px;
+  height: auto;
+  justify-content: right;
+  margin: 10px 0px 100px 200px;
+}
